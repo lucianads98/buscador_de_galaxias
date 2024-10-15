@@ -1,0 +1,17 @@
+main {
+    min-height: calc(100vh - 160px);
+  }
+
+  .card-img-top {
+    object-fit: cover;
+    height: 200px; /* Limitar la altura de la imagen */
+  }
+  
+  .card-body p {
+    font-size: 0.9rem;
+  }
+
+  .card-text {
+    max-height: 150px; /* Altura máxima para el contenido */
+    overflow-y: auto;  /* Activar el desplazamiento vertical si excede */
+  }
